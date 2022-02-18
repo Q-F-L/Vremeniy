@@ -1,0 +1,207 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+audio:not([controls]) { display: none; height: 0px; }
+html { font-size: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; }
+body { margin: 0px; }
+a:active, a:hover { outline: 0px none; }
+h3 { font-size: 16px; font-weight: 400; margin: 0px 0px 1em; }
+h4 { font-size: 14px; font-weight: 400; margin: 0px 0px 1.33em; }
+b, strong { font-weight: 700; }
+hr { box-sizing: content-box; height: 0px; }
+p, pre { margin: 0px 0px 1em; }
+q::before, q::after { content: none; }
+dl, menu, ol, ul { margin: 0px; }
+menu, ol, ul { padding: 0px; list-style: outside none none; }
+nav ul, nav ol { list-style: outside none none; }
+img { border: 0px none; }
+svg:not(:root) { overflow: hidden; }
+button::-moz-focus-inner, input::-moz-focus-inner { padding: 0px; border: 0px none; }
+.xacym::before, .dorydon::before, .xacym::after, .dorydon::after { display: table; content: " "; }
+.xacym::after, .dorydon::after { clear: both; }
+.xacym, .dorydon {  }
+@font-face {
+	font-family: "PF DinDisplay Pro";
+	font-style: normal;
+	font-weight: 700;
+	src: url('/css/main/puz/images/pfdindisplaypro-bold.eot') format("embedded-opentype"), url('/css/main/puz/images/pfdindisplaypro-bold.woff') format("woff"), url('/css/main/puz/images/pfdindisplaypro-bold.ttf') format("truetype"), url('/css/main/puz/images/pfdindisplaypro-bold.svg') format("svg");
+}
+@font-face {
+	font-family: "PF DinDisplay Pro";
+	font-style: normal;
+	font-weight: 500;
+	src: url('/css/main/puz/images/pfdindisplaypro-med.eot') format("embedded-opentype"), url('/css/main/puz/images/pfdindisplaypro-med.woff') format("woff"), url('/css/main/puz/images/pfdindisplaypro-med.ttf') format("truetype"), url('/css/main/puz/images/pfdindisplaypro-med.svg') format("svg");
+}
+@font-face {
+	font-family: "PF DinDisplay Pro";
+	font-style: normal;
+	font-weight: 400;
+	src: url('/css/main/puz/images/pfdindisplaypro-reg.eot') format("embedded-opentype"), url('/css/main/puz/images/pfdindisplaypro-reg.woff') format("woff"), url('/css/main/puz/images/pfdindisplaypro-reg.ttf') format("truetype"), url('/css/main/puz/images/pfdindisplaypro-reg.svg') format("svg");
+}
+html { font-family: "PT Sans",sans-serif; min-width: 960px; color: rgb(51, 51, 51); background: rgb(251, 251, 251) url('/css/main/puz/images/bg.jpg') repeat scroll 0% 0%; }
+a { color: rgb(71, 147, 223); }
+a:hover { color: rgb(110, 170, 7); }
+h4 { color: rgb(71, 147, 223); }
+.i-text li::before, .blog__post li::before { position: absolute; top: 8px; left: 3px; display: inline-block; width: 21px; height: 8px; margin-right: 4px; content: ""; background: transparent url('/css/main/puz/images/icons.png') repeat scroll 0px -150px; }
+.i-available::before { display: inline-block; width: 14px; height: 11px; margin-top: 2px; margin-right: 2px; content: ""; vertical-align: top; background: transparent url('/css/main/puz/images/icons.png') repeat scroll -50px -250px; }
+.nayuzil { position: relative; text-transform: uppercase; }
+.nayuzil::before { font-weight: 300; position: absolute; top: 0.3ex; left: -0.1ex; width: 0.9ex; content: "-"; }
+.dorydon { width: 940px; margin: auto; padding: 0px 10px; }
+.uujifyq { display: inline-block; box-sizing: border-box; text-align: center; text-decoration: none; border: medium none; outline: medium none; }
+.feqah { font-size: 14px; line-height: 30px; padding: 0px 15px; text-align: center; color: rgb(51, 51, 51); border: 1px solid rgb(214, 214, 214); border-radius: 15px; background: transparent linear-gradient(to bottom, white 0%, rgb(219, 219, 219) 100%) repeat scroll 0% 0%; }
+.feqah::after { display: inline-block; width: 4px; height: 8px; margin-top: -2px; margin-left: 9px; content: ""; vertical-align: middle; background: transparent url('/css/main/puz/images/icons.png') repeat scroll -30px -250px; }
+.feqah:hover { color: rgb(51, 51, 51); background: transparent linear-gradient(to bottom, white 0%, rgb(233, 233, 233) 100%) repeat scroll 0% 0%; }
+.yijigox { font-family: "Roboto",sans-serif; font-size: 14px; line-height: 26px; width: 81px; color: rgb(51, 51, 51); border: 2px solid rgb(238, 238, 238); border-radius: 15px; background: transparent linear-gradient(to bottom, white 0%, rgb(219, 219, 219) 100%) repeat scroll 0% 0%; }
+.yijigox:hover { color: rgb(255, 255, 255); border: 2px solid rgb(143, 202, 42); background: transparent linear-gradient(to bottom, rgb(158, 215, 61) 0%, rgb(131, 192, 26) 100%) repeat scroll 0% 0%; }
+.form__select-box::before { position: absolute; top: 1px; right: 1px; display: block; width: 35px; height: 29px; content: ""; pointer-events: none; background: transparent url('/css/main/puz/images/icons.png') repeat scroll -150px -250px; }
+.fancy-radio__label::before { position: absolute; top: 10px; right: 10px; display: block; width: 13px; height: 13px; content: ""; background: transparent url('/css/main/puz/images/icons.png') repeat scroll -100px -250px; }
+.xelysol { margin-bottom: 20px; }
+.buuusot { float: left; }
+.uycezez { width: 280px; margin: 7px auto auto; }
+.gijyb { margin-top: 10px; }
+.gaguraz { margin-top: 30px; }
+.bipupyq { line-height: 39px; height: 39px; margin-bottom: 16px; border-bottom: 1px solid rgb(240, 240, 240); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.garihad { font-size: 13px; float: left; }
+.bayenel { float: right; }
+.yidalah { font-size: 14px; float: left; margin-left: 27px; }
+.yidalah::before { display: inline-block; width: 20px; height: 20px; margin-right: 4px; content: ""; vertical-align: middle; background: transparent url('/css/main/puz/images/icons.png') repeat scroll 0% 0%; }
+.ueyig::before { background-position: -100px 0px; }
+.nynib::before { background-position: -150px 0px; }
+.zaleleh { color: rgb(71, 147, 223); }
+.zowoz { display: table; width: 250px; text-align: center; }
+.mucebix { display: table-cell; height: 75px; vertical-align: middle; }
+.bimigid { display: inline-block; }
+.puguq { font-size: 14px; margin-top: -7px; text-align: center; }
+.xelysol-cart__items::before { display: inline-block; width: 26px; height: 28px; margin-right: 4px; content: ""; vertical-align: middle; background: transparent url('/css/main/puz/images/icons.png') repeat scroll -50px 0px; }
+.nosujuk { font-family: "PF DinDisplay Pro","PT Sans",sans-serif; font-size: 13px; text-transform: uppercase; }
+.webox { line-height: 41px; display: inline-block; float: left; width: 158px; text-align: center; text-decoration: none; color: rgb(255, 255, 255); border: 1px solid rgb(76, 153, 229); border-radius: 4px; background: transparent linear-gradient(to bottom, rgb(93, 176, 251) 0%, rgb(62, 134, 211) 100%) repeat scroll 0% 0%; }
+.webox::before { display: inline-block; width: 22px; height: 20px; margin-top: -2px; margin-right: 8px; content: ""; vertical-align: middle; background: transparent url('/css/main/puz/images/icons.png') repeat scroll -200px 0px; }
+.webox:hover { color: rgb(255, 255, 255); background: transparent linear-gradient(to bottom, rgb(143, 200, 252) 0%, rgb(62, 134, 211) 100%) repeat scroll 0% 0%; }
+.qewej { display: table; float: right; width: 764px; border: 1px solid rgb(219, 219, 219); border-radius: 4px; }
+.lyfawep { display: table-cell; text-align: center; white-space: nowrap; border-right: 1px solid rgb(219, 219, 219); }
+.lyfawep:last-child { border: medium none; }
+.monyfiw { line-height: 41px; display: inline-block; width: 100%; text-decoration: none; color: rgb(51, 51, 51); background: transparent linear-gradient(to bottom, white 0%, rgb(234, 234, 234) 100%) repeat scroll 0% 0%; }
+.monyfiw--active, .monyfiw:hover { color: rgb(71, 147, 223); background: transparent linear-gradient(to bottom, rgb(237, 237, 237) 0%, rgb(251, 253, 254) 100%) repeat scroll 0% 0%; }
+.pyzefip { font-size: 14px; margin-left: -20px; text-align: center; }
+.piwoq { position: relative; float: left; width: 165px; margin-left: 20px; padding-top: 6px; padding-left: 55px; text-align: left; }
+.piwoq::before { position: absolute; top: 0px; left: 0px; display: inline-block; width: 44px; height: 48px; content: ""; background: transparent url('/css/main/puz/images/icons.png') repeat scroll 0% 0%; }
+.bakak::before { background-position: 0px -50px; }
+.fykag::before { background-position: -50px -50px; }
+.xefakiw::before { background-position: -100px -50px; }
+.cuguwew::before { background-position: -150px -50px; }
+.zefupum { font-size: 16px; line-height: 1; margin-bottom: 2px; color: rgb(71, 147, 223); }
+.ciuuf { font-size: 13px; float: left; width: 700px; margin-bottom: 30px; }
+.cijax { margin-left: -20px; }
+.qebem { display: inline-block; width: 340px; margin-bottom: 27px; margin-left: 18px; vertical-align: top; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.zameh { position: relative; padding: 20px 20px 20px 130px; border: 2px solid rgb(240, 240, 240); border-radius: 4px; min-height: 90px; }
+.cexym { position: absolute; top: 20px; left: 10px; width: 110px; text-align: center; }
+.cexym img { max-width: 100%; }
+.nufib { font-size: 15px; color: rgb(71, 147, 223); }
+.nufib:hover { color: rgb(110, 170, 7); }
+.pouylyc { font-size: 12px; font-style: italic; color: rgb(134, 134, 134); }
+.befuq { font-size: 13px; margin: 10px 0px; }
+.puzut { font-family: "Roboto",sans-serif; font-size: 18px; font-weight: 500; float: left; }
+.qixobul { float: right; }
+.properties__item::before { display: inline; content: "тАФ"; }
+.hopeb { float: right; width: 220px; margin-bottom: 50px; }
+.pyxes { margin-bottom: 20px; }
+.cyjopox { margin-bottom: 20px; padding: 15px; border-top: 3px solid rgb(240, 240, 240); border-bottom: 3px solid rgb(240, 240, 240); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.jytyp { font-size: 15px; font-weight: 700; display: inline-block; margin-top: 0px; margin-bottom: 11px; text-transform: uppercase; color: rgb(51, 51, 51); }
+.uolej { font-size: 14px; }
+.qisaq { padding-bottom: 10px; border-bottom: 1px solid rgb(240, 240, 240); }
+.fafib { margin-bottom: 11px; }
+.bipicaf { position: relative; display: inline-block; padding-left: 12px; color: rgb(71, 147, 223); }
+.bipicaf::before { position: absolute; top: 5px; left: 0px; display: inline-block; width: 5px; height: 10px; content: ""; background: transparent url('/css/main/puz/images/icons.png') repeat scroll -10px -250px; }
+.bipicaf--active, .bipicaf:hover { color: rgb(110, 170, 7); }
+.bipicaf--active::before, .bipicaf:hover::before { background-position: 0px -250px; }
+.categories-links__href::before { position: absolute; top: 5px; left: 0px; display: inline-block; width: 5px; height: 10px; content: ""; background: transparent url('/css/main/puz/images/icons.png') repeat scroll -30px -250px; }
+.categories-links__href--active::before, .categories-links__href:hover::before { background-position: -10px -250px; }
+.bepec { font-size: 14px; }
+.wuqysun { font-weight: 700; margin: 0px 0px 10px; color: rgb(51, 51, 51); }
+.cojuk { margin-bottom: 8px; }
+.xyfod { font-style: italic; }
+.yobop { font-size: 12px; color: rgb(140, 140, 140); }
+.xumumam { height: 1px; margin: 12px 0px; border: medium none; background: rgb(225, 225, 225) none repeat scroll 0% 0%; }
+.gyxacel { font-size: 13px; color: rgb(71, 147, 223); }
+.xisiuaj { font-size: 13px; text-align: center; }
+.tojau { margin-bottom: 7px; padding: 14px 14px 2px; border: 1px dashed rgb(71, 147, 223); border-radius: 8px; background: transparent url('/css/main/puz/images/sidebar-bonuses-bg.png') no-repeat scroll 0% 0%; }
+.kizoh { background-position: 100px 0px; }
+.hajim { background-position: 100px -200px; }
+.barok { background-position: 100px -380px; }
+.zidyg { font-size: 17px; font-weight: 700; margin-bottom: 8px; color: rgb(71, 147, 223); }
+.rewucoq { font-size: 14px; margin-bottom: 20px; padding: 0px 9px; border: 3px solid rgb(240, 240, 240); border-radius: 4px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.kisigep { padding-top: 12px; border-top: 1px dashed rgb(162, 162, 162); }
+.kisigep:first-child { border: medium none; }
+.qiwup { min-height: 60px; }
+.yyxyhys { float: left; max-width: 70px; }
+.yalymew { display: block; margin-left: 80px; color: rgb(71, 147, 223); }
+.cepyriz { font-size: 12px; margin-left: 80px; color: rgb(162, 162, 162); }
+.tuzow { padding: 20px 0px 30px; color: rgb(255, 255, 255); background: transparent linear-gradient(to bottom, rgb(47, 85, 128) 0%, rgb(29, 68, 109) 100%) repeat scroll 0% 0%; }
+.footer__links { float: left; width: 700px; margin-left: -30px; }
+.xoyiz { float: right; width: 240px; }
+.jizuz { margin-top: 30px; padding-top: 20px; color: rgb(86, 123, 165); border-top: 1px solid rgb(56, 101, 149); }
+.footer__counters { float: right; }
+.footer__social { float: right; margin-right: 20px; }
+.tuzow-links { float: left; width: 200px; padding-left: 30px; }
+.tuzow-links__item { font-size: 13px; position: relative; margin-top: 10px; padding-left: 10px; }
+.tuzow-links__item::before { position: absolute; top: 5px; left: 0px; display: inline-block; width: 5px; height: 8px; content: ""; background: transparent url('/css/main/puz/images/icons.png') repeat scroll -20px -250px; }
+.tuzow-links__href { line-height: 1; color: rgb(255, 255, 255); }
+.tuzow-links__href:hover { color: rgb(255, 255, 255); }
+.tuzow-social { line-height: 32px; }
+.tuzow-social__href { display: inline-block; width: 23px; height: 23px; margin: 0px 5px; vertical-align: middle; text-indent: -9999px; background: transparent url('/css/main/puz/images/icons.png') repeat scroll 0% 0%; }
+.tuzow-social__href--fb { background-position: 0px -200px; }
+.tuzow-social__href--twitter { background-position: -30px -200px; }
+.tuzow-social__href--rss { background-position: -60px -200px; }
+.qygyy { text-align: center; }
+.qosicip { padding: 10px 3px 1px; border-radius: 5px; background: rgb(53, 94, 141) none repeat scroll 0% 0%; }
+.qauojen { font-family: "PF DinDisplay Pro","PT Sans",sans-serif; font-size: 22px; line-height: 28px; }
+.qauojen::before { display: inline-block; width: 26px; height: 28px; margin-top: -3px; margin-right: 4px; content: ""; vertical-align: middle; background: transparent url('/css/main/puz/images/icons.png') repeat scroll 0% 0%; }
+.ledin { color: rgb(71, 147, 223); background-position: 0px 0px; }
+.uesac::before { width: 14px; height: 20px; background-position: -250px 0px; }
+.fudadam { font-size: 14px; font-style: italic; margin-top: 6px; }
+.faselyh { font-weight: 700; font-style: normal; }
+.noxuwou { color: rgb(71, 147, 223); }
+.socop { }
+.karyt { font-size: 13px; position: relative; float: left; padding-left: 17px; }
+.karyt::before { position: absolute; top: 0px; left: 0px; display: inline-block; content: "c"; }
+
+#overlay { background: rgb(0, 0, 0) none repeat scroll 0% 0%; opacity: 0.5; width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; display: none; }
+/* ::::: http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=latin,cyrillic ::::: */
+
+@font-face {
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("PT Sans"), local("PTSans-Regular"), url('/css/main/puz/images/ftlr1ww5qq9ui3f-pb4hxq.woff2') format("woff2"), url('/css/main/puz/images/yrzxiavgeqqdopyg8qsg8q.woff') format("woff");
+}
+@font-face {
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: local("PT Sans Bold"), local("PTSans-Bold"), url('/css/main/puz/images/g46x4vh_khowaaa-hpngpvk_varhqviz0nv9q090hn8.woff2') format("woff2"), url('/css/main/puz/images/g46x4vh_khowaaa-hpngphsxeywm7fgeyasgu71clg0.woff') format("woff");
+}
+@font-face {
+	font-family: "PT Sans";
+	font-style: italic;
+	font-weight: 400;
+	src: local("PT Sans Italic"), local("PTSans-Italic"), url('/css/main/puz/images/7dsh6bcuqdlzs2qaasieultxra8tvwticgirnjhmvjw.woff2') format("woff2"), url('/css/main/puz/images/7dsh6bcuqdlzs2qaasieuj8e0i7kzn-epnyo3hzu7kw.woff') format("woff");
+}
+/* ::::: http://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic ::::: */
+
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Roboto"), local("Roboto-Regular"), url('/css/main/puz/images/ic_dw3hjuhh__1luo8irga.woff2') format("woff2"), url('/css/main/puz/images/y5yuujgdltmyv2_3fmb4fa.woff') format("woff");
+}
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	src: local("Roboto Medium"), local("Roboto-Medium"), url('/css/main/puz/images/ohi30kwqwvpcwqahzhccsftxra8tvwticgirnjhmvjw.woff2') format("woff2"), url('/css/main/puz/images/ohi30kwqwvpcwqahzhccsd8e0i7kzn-epnyo3hzu7kw.woff') format("woff");
+}
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Roboto Bold"), local("Roboto-Bold"), url('/css/main/puz/images/isz-wbcxnkabnjo6_twhtltxra8tvwticgirnjhmvjw.woff2') format("woff2"), url('/css/main/puz/images/isz-wbcxnkabnjo6_twhtj8e0i7kzn-epnyo3hzu7kw.woff') format("woff");
+}

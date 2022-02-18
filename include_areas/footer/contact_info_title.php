@@ -1,0 +1,2 @@
+<p class='title-h4'>Контактная информация</p>
+ <a  href="tel:+7 (846) 277-05-83"><span style="color: #1c327f; font-family: Verdana; font-size: 16pt; font-weight:bold;">+7 (846) 277-05-83</span></a> <p style="font-size:12px; color:#383838;"></p>

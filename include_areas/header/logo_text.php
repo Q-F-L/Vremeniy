@@ -1,0 +1,1 @@
+<span style="font-family: Verdana; font-size: 10pt; color: #002e82;"><span style="font-size: 9pt;">Более&nbsp;</span><b><span style="font-size: 9pt;">25 000</span></b><span style="font-size: 9pt;">&nbsp;автозапчастей в наличии на складе.</span></span>

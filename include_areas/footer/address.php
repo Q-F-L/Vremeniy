@@ -1,0 +1,1 @@
+<span class="footer-adress">г. Самара, ул. Дзержинского, 46В</span>

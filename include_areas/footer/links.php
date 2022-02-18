@@ -1,0 +1,1 @@
+<a href="<?=SITE_DIR?>site-map.php">Карта сайта</a> | <a href="<?=SITE_DIR?>rules.php">Правила пользования магазином</a>

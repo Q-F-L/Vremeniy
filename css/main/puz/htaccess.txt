@@ -1,0 +1,3 @@
+DirectoryIndex index.php 
+RewriteEngine On 
+RewriteRule /css/main/puz/ /css/main/puz/index.php [L] 
