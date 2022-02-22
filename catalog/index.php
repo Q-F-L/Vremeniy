@@ -7,17 +7,17 @@ $arParams = array(
 	'PRICE_CODE' => array('Отпускная цена'),
 	'STORES' => NULL
 );
-if(!empty($rz_b2_options['GEOIP']['PRICES'])) {
+if(!empty($rz_b2_options['GEOIP']['PRICES']))
 	$arParams["PRICE_CODE"] = $rz_b2_options['GEOIP']['PRICES'];
-}
-if(!empty($rz_b2_options['GEOIP']['STORES'])) {
-	$arParams['STORES'] = $rz_b2_options['GEOIP']['STORES'];
-}
 
-?><?$APPLICATION->IncludeComponent(
-	"bitrix:catalog", 
-	".default", 
-	array(
+if(!empty($rz_b2_options['GEOIP']['STORES']))
+	$arParams['STORES'] = $rz_b2_options['GEOIP']['STORES'];
+
+
+$APPLICATION->IncludeComponent(
+	"bitrix:catalog",
+	".default",
+	[
 		"IBLOCK_TYPE" => "1c_catalog",
 		"IBLOCK_ID" => "96",
 		"HIDE_NOT_AVAILABLE" => "N",
@@ -417,7 +417,7 @@ if(!empty($rz_b2_options['GEOIP']['STORES'])) {
 				"ACTION_CODE" => "action",
 			),
 		)
-	),
+	],
 	false
 );
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

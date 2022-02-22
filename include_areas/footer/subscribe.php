@@ -1,5 +1,6 @@
 <?if(CModule::IncludeModule('subscribe')):?>
-<?$APPLICATION->IncludeComponent("bitrix:subscribe.form", ".default", Array(
+<?$APPLICATION->
+IncludeComponent("bitrix:subscribe.form", ".default", Array(
 	"COMPONENT_TEMPLATE" => ".default",
 	"USE_PERSONALIZATION" => "Y",
 	"SHOW_HIDDEN" => "N",
